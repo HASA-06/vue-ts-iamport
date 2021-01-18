@@ -1,8 +1,13 @@
-import Main from '../build/main';
+import IMP from '../build/main';
 
-test("initial test", () => {
-  const main = new Main('test');
+const imp = new IMP();
+imp.init('imp64636919');
 
-  expect(main.getA())
-    .toBe('test'); 
+test("Just testing", async () => {
+  expect(await imp.requestPay())
+    .toBe('Success'); 
+});
+
+test("Request payment", async () => {
+
 });
