@@ -1,5 +1,5 @@
-#package
+# Using modules
 node_modules
 
-#typescript compile
-/build
+# Output result of trasfer TS files to JS and .d.ts
+build
